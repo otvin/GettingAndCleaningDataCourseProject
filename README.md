@@ -35,7 +35,7 @@ See: http://vita.had.co.nz/papers/tidy-data.pdf for definition of tidy data
 
 ## Viewing a copy of the output 
 
-To view the data as output on my PC using this script on May 22, you could execute the following from RStudio (I used RStudio version 0.98.1103 on both Ubuntu Linux and Windows 7 Enterprise)
+To view the data that I generated on my PC using this script and these instructions on May 22, 2015, you could execute the following from RStudio (I used RStudio version 0.98.1103 on both Ubuntu Linux and Windows 7 Enterprise)
 
 `data <- read.table(url("http://s3.amazonaws.com/coursera-uploads/user-15b5014833b7da4089901b16/973501/asst-3/8573723000be11e599dd0b67c8885217.txt"), header = TRUE)`
 
