@@ -23,6 +23,7 @@ URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20
 1. Download the aforementioned zip file, and unzip it on your local machine.  All the data are located in the zip in a folder named `UCI HAR Dataset`.
 2. Set the working directory in R (or RStudio) to the folder which contains `UCI HAR Dataset`.  This can be done via the `setwd()` command.
 3. Download and then execute the `run_analysis.R` script via the `source()` command.  If you place the `run_analysis.R` script in the same directory as the `UCI HAR Dataset` folder, the command would be `source("run_analysis.R")`.
+4. The script creates a variable tidy_set contianing 180 observations of the 68 variables (subject, activity, and the 66 features being averaged).  You can manipulate this as you see fit.  If you are running RStudio, you can do `View(tidy_set)` to see the data (verified in RStudio version0.98.1103 on Windows 7 and Ubuntu Linux 15.04).
  
 ## Script Output
 
