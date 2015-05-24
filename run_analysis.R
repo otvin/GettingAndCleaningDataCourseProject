@@ -1,3 +1,4 @@
+library(utils)
 library(dplyr)
 
 run_analysis <- function () {
