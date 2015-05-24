@@ -2,9 +2,9 @@
 
 The output file takes features as described in the original code book (below) and reformats into a tidy data set.  The instructions for this assignment were to take the average of each of the measurements that were "mean" or "standard deviation."  
 
-It was assumed that any feature that ended in "mean()" or "std()" to be a mean or a standard deviation, and averaged those.   
+Variables and summaries calculated: It was assumed that any feature that ended in "mean()" or "std()" to be a mean or a standard deviation, and averaged those.   So, for example: fBodyAccJerk-mean()-Y was used because it ended in mean().  The assignment required that we use "descriptive variable names" for the features being averaged.  I used the feature names from the original data set and deemed them descriptive.
 
-The assignment required that we use "descriptive variable names" for the features being averaged.  I used the feature names from the original data set and deemed them descriptive.
+Units: As described in the original code book, the units are time domain signals captured at a constant rate of 50 Hz.  They are then filtered, and in some cases a fast Fourier transform is applied, and then there are statistical measures applied to them.  We then take the mean and standard deviation and then average both of tohse, per subject, per variable.
 
 
 
